@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Demo Revolution – Form & Function Revolutionized</title>
+      <!-- FONT AWESOME -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- ANIMATE CSS -->
+      <link rel="stylesheet" href="./css/animate.min.css">
+      <!-- OWL CAROUSEL -->
+      <link rel="stylesheet" href="./css/owl-carousel/owl.carousel.min.css">
+      <link rel="stylesheet" href="./css/owl-carousel/owl.theme.default.min.css">
+      <!-- SLICK CSS -->
+      <link rel="stylesheet" href="./css/slick/slick-theme.css">
+      <link rel="stylesheet" href="./css/slick/slick.css">
+      <!-- MAGNIFIC CSS -->
+      <link rel="stylesheet" href="./css/magnific/all.min.css">
+      <!-- MAIN CSS -->
+      <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+      <header class="header">
+            <div class="container">
+                  <div class="header__content">
+                        <div class="header__left">
+                              <div class="header__logo hide">
+                                    <img src="./images/logo_black.png" alt="" class="header__img black">
+                                    <img src="./images/logo_white.png" alt="" class="header__img white">
+                              </div>
+                              <div class="header__navbar hide">
+                                    <div class="header__bar">
+                                          <span></span>
+                                          <span></span>
+                                          <span></span>
+                                    </div>
+                                    <div class="header__active">
+                                          <span>Menu</span>
+                                          <span class="header__close">Close</span>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="header__right">
+                              <div class="header__music">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                              </div>
+                              <div class="header__language">
+                                    <a href="#" class="header__select">En <i class="fa fa-angle-down"></i></a>
+                                    <ul class="header__list">
+                                          <li><a href="#">Français</a></li>
+                                          <li><a href="#">Deutsch</a></li>
+                                    </ul>
+                              </div>
+                              <svg class="header__search" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0"
+                                    width="16" height="16" viewBox="0 0 18 18" enable-background="new 0 0 16 16"
+                                    xml:space="preserve">
+                                    <path
+                                          d="M17.7 16.5l-4.9-4.8c1-1.2 1.6-2.8 1.6-4.5 0-3.9-3.2-7.2-7.2-7.2C3.2 0 0 3.2 0 7.2c0 3.9 3.2 7.2 7.2 7.2 1.6 0 3.1-0.5 4.3-1.4l4.9 4.8c0.2 0.2 0.4 0.3 0.6 0.3 0.2 0 0.5-0.1 0.6-0.3C18.1 17.4 18.1 16.8 17.7 16.5zM1.8 7.2c0-3 2.4-5.4 5.4-5.4 3 0 5.4 2.4 5.4 5.4 0 3-2.4 5.4-5.4 5.4C4.2 12.5 1.8 10.1 1.8 7.2z">
+                                    </path>
+                              </svg>
+                        </div>
+                  </div>
+            </div>
+            <div class="header__menu hide">
+                  <div class="container">
+                        <div class="header__menu--content">
+                              <ul class="header__navigation">
+                                    <li class="header__item"><a href="index.html" class="header__link">Home</a></li>
+                                    <li class="header__item"><a href="new.html" class="header__link">News</a></li>
+                                    <li class="header__item"><a href="project.html" class="header__link">Project</a></li>
+                                    <li class="header__item"><a href="about.html" class="header__link">Who We Are</a>
+                                    </li>
+                                    <li class="header__item"><a href="#" class="header__link">Services</a></li>
+                                    <li class="header__item"><a href="contact.html" class="header__link">Contact Us</a>
+                                    </li>
+                              </ul>
+                              <div class="header__bottom">
+                                    <div class="header__bottom--content">
+                                          <div class="header__bottom-left">
+                                                <a href="#" class="header__page">Sample Page</a>
+                                                <a href="#" class="header__page">Sample Page</a>
+                                          </div>
+                                          <div class="header__bottom-right">
+                                                <div class="header__social">
+                                                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                      <a href="#"><i class="fab fa-twitter"></i></a>
+                                                      <a href="#"><i class="fab fa-instagram"></i></a>
+                                                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </header>
+      <section class="banner">
+            <div class="container">
+                  <div class="banner__content">
+                        <div class="banner__text">
+                              <h2 class="banner__title"><span
+                                          class="animate__animated animate__fadeInUp animate__fast">Paulaner</span><span
+                                          class="animate__animated animate__fadeInUp">Bräuhäuser</span>
+                              </h2>
+                              <p class="banner__desc animate__animated animate__fadeInUp animate__fast">An in-depth look
+                                    at
+                                    the process behind
+                                    one of the most successful
+                                    application
+                                    ever created on iOS AppStore from our developer team.</p>
+                              <a href="#"
+                                    class="banner__view animate__animated animate__fadeInUp animate__fast">DISCOVER</a>
+                        </div>
+                        <div class="banner__iphone">
+                              <img src="./images/iphone-1.png" alt=""
+                                    class="banner__iphone-1 animate__animated animate__fadeInTopLeft">
+                              <img src="./images/iphone-2.png" alt=""
+                                    class="banner__iphone-2 animate__animated animate__fadeInBottomRight">
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <section class="portfolio">
+            <div class="container">
+                  <div class="intro-intro">
+                        <img src="./images/line.png" alt="" class="line animate__animated animate__fadeInLeft">
+                        <h4 class="intro-title wow animate__animated animate__fadeInUp">Selected works</h4>
+                        <p class="intro-desc wow animate__animated animate__fadeInUp">Revolution is a global network of
+                              talent
+                              that’s changing the way creatives and
+                              companies
+                              <span>connect</span> and <span>collaborate</span>.
+                        </p>
+                  </div>
+                  <div class="portfolio__filter">
+                        Filter by <span>All <i class="fa fa-angle-down"></i></span>
+                  </div>
+                  <div class="portfolio__content">
+                        <div class="portfolio__item wow animate__animated animate__slideInUp">
+                              <img src="./images/p1-760x700.jpeg" alt="" class="portfolio__img">
+                              <div class="portfolio__text">
+                                    <span class="portfolio__top">Mobile Apps</span>
+                                    <h2 class="portfolio__bottom">Spotify</h2>
+                              </div>
+                        </div>
+                        <div class="portfolio__item wow animate__animated animate__slideInUp">
+                              <img src="./images/p2-760x700.jpeg" alt="" class="portfolio__img">
+                              <div class="portfolio__text">
+                                    <span class="portfolio__top">Branding</span>
+                                    <h2 class="portfolio__bottom">Tokyo Street</h2>
+                              </div>
+                        </div>
+                        <div class="portfolio__item wow animate__animated animate__slideInUp">
+                              <img src="./images/p3-760x700.jpeg" alt="" class="portfolio__img">
+                              <div class="portfolio__text">
+                                    <span class="portfolio__top">Animation</span>
+                                    <h2 class="portfolio__bottom">Bronze Age</h2>
+                              </div>
+                        </div>
+                        <div class="portfolio__item wow animate__animated animate__slideInUp">
+                              <img src="./images/p4-760x700.jpeg" alt="" class="portfolio__img">
+                              <div class="portfolio__text">
+                                    <span class="portfolio__top">Website Design</span>
+                                    <h2 class="portfolio__bottom">Centre Pavilion</h2>
+                              </div>
+                        </div>
+                        <div class="portfolio__item wow animate__animated animate__slideInUp">
+                              <img src="./images/p5-760x700.jpeg" alt="" class="portfolio__img">
+                              <div class="portfolio__text">
+                                    <span class="portfolio__top">lllustration</span>
+                                    <h2 class="portfolio__bottom">St. Homard</h2>
+                              </div>
+                        </div>
+                        <div class="portfolio__item wow animate__animated animate__slideInUp">
+                              <img src="./images/btc-760x700.jpeg" alt="" class="portfolio__img">
+                              <div class="portfolio__text">
+                                    <span class="portfolio__top">Branding</span>
+                                    <h2 class="portfolio__bottom">Vintage Cars</h2>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="poryfolio__load">Load More</div>
+            </div>
+      </section>
+      <section class="services">
+            <div class="container">
+                  <section class="intro">
+                        <h4 class="intro-title wow animate__animated animate__fadeInUp">
+                              OUR SERVICES</h4>
+                        <p class="intro-desc wow animate__animated animate__fadeInUp">We are bombarded with information,
+                              we
+                              strip
+                              back the unnecessary to deliver simple
+                              <span>experiences</span>.
+                        </p>
+                  </section>
+            </div>
+            <div class="services__content owl-carousel owl-theme">
+                  <div class="services__item services__item-1 wow animate__animated animate__fadeInUp">
+                        <img src="./images/s1-1-768x780.jpeg" alt="" class="services__img">
+                        <div class="services__text">
+                              <div class="services__top">
+                                    <span class="services__num">04</span>
+                                    <h2 class="services__heading">Content Strategy</h2>
+                              </div>
+                              <div class="services__bottom">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-angle-right"></i>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="services__item services__item-2 wow animate__animated animate__fadeInUp">
+                        <img src="./images/s2_.jpeg" alt="" class="services__img">
+                        <div class="services__text">
+                              <div class="services__top">
+                                    <span class="services__num">05</span>
+                                    <h2 class="services__heading">Content Strategy</h2>
+                              </div>
+                              <div class="services__bottom">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-angle-right"></i>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="services__item services__item-3 wow animate__animated animate__fadeInUp">
+                        <img src="./images/s3-771x1024.jpeg" alt="" class="services__img">
+                        <div class="services__text">
+                              <div class="services__top">
+                                    <span class="services__num">06</span>
+                                    <h2 class="services__heading">Content Strategy</h2>
+                              </div>
+                              <div class="services__bottom">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-angle-right"></i>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="services__item services__item-4 wow animate__animated animate__fadeInUp">
+                        <img src="./images/s4-1.jpeg" alt="" class="services__img">
+                        <div class="services__text">
+                              <div class="services__top">
+                                    <span class="services__num">07</span>
+                                    <h2 class="services__heading">Content Strategy</h2>
+                              </div>
+                              <div class="services__bottom">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-angle-right"></i>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="services__item services__item-5 wow animate__animated animate__fadeInUp">
+                        <img src="./images/s5-877x1024.jpeg" alt="" class="services__img">
+                        <div class="services__text">
+                              <div class="services__top">
+                                    <span class="services__num">08</span>
+                                    <h2 class="services__heading">Content Strategy</h2>
+                              </div>
+                              <div class="services__bottom">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-angle-right"></i>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="services__item services__item-6 wow animate__animated animate__fadeInUp">
+                        <img src="./images/s6-877x1024.jpeg" alt="" class="services__img">
+                        <div class="services__text">
+                              <div class="services__top">
+                                    <span class="services__num">09</span>
+                                    <h2 class="services__heading">Content Strategy</h2>
+                              </div>
+                              <div class="services__bottom">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-angle-right"></i>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="services__item services__item-7 wow animate__animated animate__fadeInUp">
+                        <img src="./images/s7-877x1024.jpeg" alt="" class="services__img">
+                        <div class="services__text">
+                              <div class="services__top">
+                                    <span class="services__num">10</span>
+                                    <h2 class="services__heading">Content Strategy</h2>
+                              </div>
+                              <div class="services__bottom">
+                                    <i class="fa fa-arrow-right"></i>
+                                    <i class="fa fa-angle-right"></i>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <section class="customer">
+            <div class="container">
+                  <div class="intro">
+                        <h4 class="intro-title wow animate__animated animate__fadeInUp">
+                              WHO WE ARE</h4>
+                        <p class="intro-desc wow animate__animated animate__fadeInUp">We work with organisations to
+                              craft
+                              <span>immersive</span> customer experiences.
+                        </p>
+                        <p class="intro-content wow animate__animated animate__fadeInUp">Quisque. Maecenas. Eros mus.
+                              Hymenaeos
+                              eros. Nisi mauris et adipiscing. Aliquam
+                              class
+                              bibendum non mattis fusce cum mus quisque inceptos, viverra, gravida tellus condimentum
+                              aptent
+                              dapibus interdum habitant gravida sollicitudin Elit sollicitudin id aenean placerat
+                              conubia euismod
+                              natoque dui inceptos porttitor fusce potenti vivamus phasellus hendrerit lacus praesent.
+                              Adipiscing.
+                              Auctor lorem porttitor bibendum curae; sit ridiculus massa rhoncus aliquam in hac luctus
+                              tincidunt
+                              aliquet vehicula eleifend mus vel tempor.</p>
+                  </div>
+                  <div class="view wow animate__animated animate__fadeInLeft">
+                        <a href="#">Learn More</a>
+                        <div class="arrow">
+                              <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                          x="0px" y="0px" width="30px" height="18px" viewBox="0 0 30 18"
+                                          enable-background="new 0 0 30 18" xml:space="preserve">
+                                          <path class="handle"
+                                                d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                          <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                          x="0px" y="0px" width="30px" height="18px" viewBox="0 0 30 18"
+                                          enable-background="new 0 0 30 18" xml:space="preserve">
+                                          <path class="handle"
+                                                d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                          <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                    </svg>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <div class="customer__content popup-gallery">
+                  <a class="customer__item" href="./images/g1-1140x1050.jpeg">
+                        <div class=" wow animate__animated animate__fadeInUp">
+                              <img src="./images/g1-1140x1050.jpeg" alt="" class="customer__img">
+                        </div>
+                  </a>
+                  <a class="customer__item" href="./images/g2-760x700.jpeg">
+                        <div class=" wow animate__animated animate__fadeInUp">
+                              <img src="./images/g2-760x700.jpeg" alt="" class="customer__img">
+                        </div>
+                  </a>
+                  <a class="customer__item" href="./images/g3-760x700.jpeg">
+                        <div class=" wow animate__animated animate__fadeInUp">
+                              <img src="./images/g3-760x700.jpeg" alt="" class="customer__img">
+                        </div>
+                  </a>
+                  <a class="customer__item" href="./images/g4-760x700.jpeg">
+                        <div class=" wow animate__animated animate__fadeInUp">
+                              <img src="./images/g4-760x700.jpeg" alt="" class="customer__img">
+                        </div>
+                  </a>
+                  <a class="customer__item" href="./images/g5-760x700.jpeg">
+                        <div class="  wow animate__animated animate__fadeInUp">
+                              <img src="./images/g5-760x700.jpeg" alt="" class="customer__img">
+                        </div>
+                  </a>
+            </div>
+      </section>
+      <section class="team">
+            <div class="container">
+                  <div class="intro">
+                        <h4 class="intro-title wow animate__animated animate__fadeInUp">MEET THE TEAM</h4>
+                  </div>
+                  <div class="team__content">
+                        <div class="team__item">
+                              <div class="team__top">
+                                    <img src="./images/t1.jpeg" alt="" class="team__img">
+                                    <div class="team__text">
+                                          <p>Tortor non facilisi vel rhoncus consequat cum accumsan. Varius, phasellus
+                                                Laoreet euismod
+                                                sociosqu curabitur congue hac semper urna consectetuer orci tincidunt
+                                                duis velit
+                                                gravida,
+                                                enim tempor viverra tortor euismod.</p>
+                                          <div class="team__share">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <h3 class="team__author">Tylor Katholling</h3>
+                              <p class="team__desc">Founder</p>
+                        </div>
+                        <div class="team__item">
+                              <div class="team__top">
+                                    <img src="./images/t2.jpeg" alt="" class="team__img">
+                                    <div class="team__text">
+                                          <p>Tortor non facilisi vel rhoncus consequat cum accumsan. Varius, phasellus
+                                                Laoreet euismod
+                                                sociosqu curabitur congue hac semper urna consectetuer orci tincidunt
+                                                duis velit
+                                                gravida,
+                                                enim tempor viverra tortor euismod.</p>
+                                          <div class="team__share">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <h3 class="team__author">Tylor Katholling</h3>
+                              <p class="team__desc">Founder</p>
+                        </div>
+                        <div class="team__item">
+                              <div class="team__top">
+                                    <img src="./images/t3.jpeg" alt="" class="team__img">
+                                    <div class="team__text">
+                                          <p>Tortor non facilisi vel rhoncus consequat cum accumsan. Varius, phasellus
+                                                Laoreet euismod
+                                                sociosqu curabitur congue hac semper urna consectetuer orci tincidunt
+                                                duis velit
+                                                gravida,
+                                                enim tempor viverra tortor euismod.</p>
+                                          <div class="team__share">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <h3 class="team__author">Tylor Katholling</h3>
+                              <p class="team__desc">Founder</p>
+                        </div>
+                        <div class="team__item">
+                              <div class="team__top">
+                                    <img src="./images/t4.jpeg" alt="" class="team__img">
+                                    <div class="team__text">
+                                          <p>Tortor non facilisi vel rhoncus consequat cum accumsan. Varius, phasellus
+                                                Laoreet euismod
+                                                sociosqu curabitur congue hac semper urna consectetuer orci tincidunt
+                                                duis velit
+                                                gravida,
+                                                enim tempor viverra tortor euismod.</p>
+                                          <div class="team__share">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <h3 class="team__author">Tylor Katholling</h3>
+                              <p class="team__desc">Founder</p>
+                        </div>
+                  </div>
+                  <div class="team__view">
+                        <div class="view wow animate__animated animate__fadeInLeft">
+                              <a href="#">View All Members</a>
+                              <div class="arrow">
+                                    <div>
+                                          <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                                height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18"
+                                                xml:space="preserve">
+                                                <path class="handle"
+                                                      d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                                <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                                height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18"
+                                                xml:space="preserve">
+                                                <path class="handle"
+                                                      d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                                <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                          </svg>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <section class="business">
+            <div class="container">
+                  <div class="intro">
+                        <h4 class="intro-title wow animate__animated animate__fadeInUp">SELECTED CLIENTS</h4>
+                  </div>
+                  <div class="business__content">
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l1-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l2-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l3_-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l4_-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l5-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l6-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l7-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                        <a href="#">
+                              <div class="business__item">
+                                    <img src="./images/l8-1-760x405.png" alt="" class="business__img">
+                              </div>
+                        </a>
+                  </div>
+            </div>
+      </section>
+      <section class="news">
+            <div class="container">
+                  <div class="news__top">
+                        <img src="./images/est.png" alt="Logo est" class="news__logo">
+                        <h2 class="news__heading">Thoughts & Experiments</h2>
+                  </div>
+                  <div class="news__content">
+                        <div class="news__item wow animate__animated animate__fadeInRight">
+                              <div class="news__img">
+                                    <img src="./images/r14-760x630.jpeg" alt="">
+                                    <div class="news__icon"><i class="fa fa-arrow-right"></i></div>
+                              </div>
+                              <a href="#" class="news__creative">CREATIVITY</a>
+                              <a href="#" class="news__title">Sexbots and cybersex: Kate Davis explores “relationship
+                                    replacements”</a>
+                              <p class="news__time">January 15, 2018</p>
+                        </div>
+                        <div class="news__item wow animate__animated animate__fadeInRight">
+                              <div class="news__img">
+                                    <img src="./images/jpg01.jpeg" alt="" class="news__img">
+                                    <div class="news__icon"><i class="fa fa-arrow-right"></i></div>
+                              </div>
+                              <a href="#" class="news__creative">BRANDING</a>
+                              <a href="#" class="news__title">Apartamento at ten: a decade of celebrating the everyday
+                                    home</a>
+                              <p class="news__time">January 15, 2018</p>
+                        </div>
+                        <div class="news__item wow animate__animated animate__fadeInRight">
+                              <div class="news__img">
+                                    <img src="./images/jpg02.jpeg" alt="" class="news__img">
+                                    <div class="news__icon"><i class="fa fa-arrow-right"></i></div>
+                              </div>
+                              <a href="#" class="news__creative">INSPIRATION</a>
+                              <a href="#" class="news__title">Aron Klein’s captivating images of the Bulgarian demon
+                                    chasers</a>
+                              <p class="news__time">January 15, 2018</p>
+                        </div>
+                        <div class="news__item wow animate__animated animate__fadeInRight">
+                              <div class="news__img">
+                                    <img src="./images/jpg01.jpeg" alt="" class="news__img">
+                                    <div class="news__icon"><i class="fa fa-arrow-right"></i></div>
+                              </div>
+                              <a href="#" class="news__creative">ADVENTURE</a>
+                              <a href="#" class="news__title">Peter Funch shares the photo books that inspire his own
+                                    practice</a>
+                              <p class="news__time">January 15, 2018</p>
+                        </div>
+                  </div>
+                  <div class="news__view">
+                        <div class="view wow animate__animated animate__fadeInLeft">
+                              <a href="#">View All Members</a>
+                              <div class="arrow">
+                                    <div>
+                                          <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                                height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18"
+                                                xml:space="preserve">
+                                                <path class="handle"
+                                                      d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                                <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                                height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18"
+                                                xml:space="preserve">
+                                                <path class="handle"
+                                                      d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                                <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                          </svg>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+      <section class="subscribe">
+            <div class="container">
+                  <div class="subscribe__view">
+                        <h2 class="subscribe__mess">We are a digital agency creating
+                              <span id="subscribe__renMess" data-mess="websites,apps,motion">
+                                    <span class="subscribe__cursor"></span>
+                                    <span class="subscribe__line">|.</span>
+                              </span>
+                        </h2>
+                        <div class="view wow animate__animated animate__fadeInLeft">
+                              <a href="#">Start a Project</a>
+                              <div class="arrow">
+                                    <div>
+                                          <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                                height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18"
+                                                xml:space="preserve">
+                                                <path class="handle"
+                                                      d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                                <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                          </svg>
+                                          <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+                                                height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18"
+                                                xml:space="preserve">
+                                                <path class="handle"
+                                                      d="M20.305,16.212c-0.407,0.409-0.407,1.071,0,1.479s1.068,0.408,1.476,0l7.914-7.952c0.408-0.409,0.408-1.071,0-1.481
+                                l-7.914-7.952c-0.407-0.409-1.068-0.409-1.476,0s-0.407,1.071,0,1.48l7.185,7.221L20.305,16.212z"></path>
+                                                <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M1,8h28.001c0.551,0,1,0.448,1,1c0,0.553-0.449,1-1,1H1c-0.553,0-1-0.447-1-1
+                                C0,8.448,0.447,8,1,8z"></path>
+                                          </svg>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <div class="subscribe__bottom">
+                  <div class="container subscribe__share">
+                        <div class="subscribe__icon">
+                              <a href="#" class="subscribe__facebook"><i class="fab fa-facebook-f"></i></a>
+                              <a href="#" class="subscribe__twitter"><i class="fab fa-twitter"></i></a>
+                              <a href="#" class="subscribe__instagram"><i class="fab fa-instagram"></i></a>
+                              <a href="#" class="subscribe__youtube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <a href="#" class="subscribe__sub">Subscribe Today</a>
+                  </div>
+            </div>
+            </div>
+      </section>
+      <footer class="footer">
+            <div class="container">
+                  <div class="footer__text">
+                        <div class="fade footer__content">
+                              <div class="footer__item">
+                                    <p class="footer__desc">“Fabulous looking theme and good support from developer.
+                                          Takes a little
+                                          effort to get it structured the way you want it but I love the way it looks.”
+                                    </p>
+                                    <div class="footer__author">Aaron Walker <span>Senior Product Designer at
+                                                Uber</span></div>
+                              </div>
+                              <div class="footer__item">
+                                    <p class="footer__desc">“This theme is easy to use and offers a lot of
+                                          possibilities. The
+                                          customer
+                                          support
+                                          answer quickly and accurately. Nothing bad to say!”</p>
+                                    <div class="footer__author">Collis TaeeedVice <span>President at Envato</span></div>
+                              </div>
+                              <div class="footer__item">
+                                    <p class="footer__desc">“Works great and it is easy to setup. Great choice for
+                                          plenty of
+                                          different styles. Had no issues so far. Support works also well if you need
+                                          it. Thanks.”</p>
+                                    <div class="footer__author">Brad Garlinghouse <span>CEO at Ripple Inc.</span></div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="footer__list">
+                        <div class="footer__col">
+                              <h3 class="footer__title">Address</h3>
+                              <ul class="footer__menu">
+                                    <li class="footer__item address">1418 Riverwood Drive,
+                                          Suite 3845 Cottonwood,
+                                          CA 96022 +1 530 347 4607</li>
+                                    <li class="footer__item"><a href="#" class="footer__link footer__map">View on Google
+                                                Map</a>
+                                    </li>
+                              </ul>
+                        </div>
+                        <div class="footer__col">
+                              <h3 class="footer__title">Navigate</h3>
+                              <ul class="footer__menu">
+                                    <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Projects</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+                              </ul>
+                        </div>
+                        <div class="footer__col">
+                              <h3 class="footer__title">Quick Links</h3>
+                              <ul class="footer__menu">
+                                    <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">News</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Terms of Use</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+                              </ul>
+                        </div>
+                        <div class="footer__col">
+                              <h3 class="footer__title">Categories</h3>
+                              <ul class="footer__menu">
+                                    <li class="footer__item"><a href="#" class="footer__link">Adventure</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Animation</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Branding</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Creativity</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Inspiration</a></li>
+                              </ul>
+                        </div>
+                  </div>
+                  <div class="footer__coppy">© 2018 Revolution Theme.</div>
+            </div>
+      </footer>
+
+      <div class="backToTop">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  width="30px" height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18" xml:space="preserve">
+                  <path class="handle"
+                        d="M2.511,9.007l7.185-7.221c0.407-0.409,0.407-1.071,0-1.48s-1.068-0.409-1.476,0L0.306,8.259
+                c-0.408,0.41-0.408,1.072,0,1.481l7.914,7.952c0.407,0.408,1.068,0.408,1.476,0s0.407-1.07,0-1.479L2.511,9.007z"></path>
+                  <path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M30,9c0,0.553-0.447,1-1,1H1c-0.551,0-1-0.447-1-1c0-0.552,0.449-1,1-1h28.002
+                C29.554,8,30,8.448,30,9z"></path>
+            </svg>
+      </div>
+      <!-- JQUERY -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- OWL CAROUSEL JS -->
+      <script src="./js/owl-carousel/owl.carousel.min.js"></script>
+      <!-- TYPE TEXT ANIMATION JS -->
+      <script src="./js/textTyping.js"></script>
+      <!-- SLICK -->
+      <script src="./js/slick/slick.js"></script>
+      <script>
+            $('.fade').slick({
+                  dots: false,
+                  arrows: false,
+                  infinite: true,
+                  speed: 500,
+                  fade: true,
+                  cssEase: 'linear',
+                  autoplay: true,
+                  autoplaySpeed: 4000
+            });
+      </script>
+      <!-- WOW ANIMATE-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- MAGNIFIC -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+            integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+            new WOW().init();
+      </script>
+      
+      <!-- MAIN JS -->
+      <script src="./js/main.js"></script>
+
+</body>
+
+</html>
